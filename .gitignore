@@ -1,0 +1,18 @@
+# Python 运行产物
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# 大体积本地资源：embedding 模型与向量库（运行时本地生成，不入库）
+bge-m3/
+chroma_db/
+
+# 编辑器个人配置
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
